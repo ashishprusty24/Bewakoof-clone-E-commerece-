@@ -1,0 +1,133 @@
+.prod_name{
+    font-size: 30px;
+}
+
+.brand_container{
+    color: #4f5362;
+    font-size: 18px;
+    font-weight: 600;
+}
+.prod_name{
+    color: #737373;
+    font-size: 16px;
+}
+.prod_price{
+    color: #0f0f0f;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.prod_strikeprice{
+    color: #949494;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+.prod_discount{
+    color: #00b852;
+    font-size: 17px;
+}
+.prod_tax{
+    color: #949494;
+    font-size: 13px;
+}
+
+.prod_category{
+    font-size: 14px;
+    font-weight: 400;
+}
+.oversizediv{
+    align-items: center;
+    background-color: #525252cc;
+    color: #fff;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0 4px;
+}
+.designdaydiv{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #525252cc;
+    color: #000;
+    display: flex;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0 8px;
+}
+.prod_tribe{
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.prod_tribe::before{
+    background-color: #eee;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.prod_tribe{
+    color: #333;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.leranmorediv{
+    color: #42a2a2;
+    cursor: pointer;
+}
+
+.prod_tribe::after{
+    background-color: #eee;
+    content: "";
+    display: block;
+    height: 3px;
+    margin-top: 10px;
+    width: 80%;
+}
+.prod_sizeguide span:nth-child(1) {
+    font-size: 13px;
+    font-weight: bold;
+  }
+.prod_sizeguide span:nth-child(2){
+    font-size: 13px;
+    font-weight: bold;
+    color: #42a2a2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.prod_size div {
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: #eee;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px; 
+    font-weight: 700;
+    justify-content: center;
+    width: 60px;
+}
+.addtocart{
+    background: #ffd84d;
+    color: #303030;
+    font-size: 15px;
+    font-weight: 600;
+}
+.prod_cart div{
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px 0;
+}

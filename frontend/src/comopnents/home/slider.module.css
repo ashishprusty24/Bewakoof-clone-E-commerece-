@@ -1,0 +1,143 @@
+.Slider_part {
+    margin: auto;
+    margin-top: 40px;
+    box-sizing: border-box;
+  }
+  button {
+    color: white;
+    background-color: white;
+    border: none;
+  }
+  .Slider_part > div > div {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  .Slider_part > div > div > div {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  .Slider_part > div > div > div img {
+    width: 100%;
+    height: 100%;
+  }
+  .nImg {
+    height: 150px;
+    width: 100px;
+  }
+  .Box {
+    overflow: hidden;
+    width: 95%;
+    margin: auto;
+    margin-top: 120px;
+  }
+ 
+  .nDiv {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popDiv {
+    width: 85%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .popImg {
+    height: 230px;
+    width: 150px;
+  }
+  .pop {
+    margin: 40px;
+    text-align: center;
+    padding: 10px;
+    word-spacing: 5px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 17px;
+  }
+  
+  .favD {
+    width: 99%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .favD > img {
+    width: 48%;
+    height: 400px;
+  }
+  .man img {
+    width: 100%;
+  }
+  .man div {
+    display: flex;
+  }
+  .slidersDiv {
+    margin: auto;
+    width: 95%;
+  }
+  .SlideFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 90%;
+    border: 1px solid red;
+  }
+  
+  
+  .discount {
+    text-decoration: line-through;
+    color: #b6b6b6;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .navLinks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    color: #b6b6b6;
+    font-weight: 600;
+  }
+  .addV {
+    margin: auto;
+    width: 98%;
+  }
+  .addV > img {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+  }
